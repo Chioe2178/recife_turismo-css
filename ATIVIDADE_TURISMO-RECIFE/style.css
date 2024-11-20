@@ -1,0 +1,58 @@
+*{    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: aquamarine;
+}
+h1{    font-size: 100px; text-align: center;  color: rgba(255, 0, 157, 0.61); margin-bottom: 20Px;
+}
+h2{    font-size: 50px; font-style: italic; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, comic, sans-serif;
+    color: red; margin-bottom: 20px; margin-top: 70px;    text-align: center;
+}
+button{    border-radius: 70%; width: 80px; height: 80px; background-color: rgb(255, 51, 0); border-style: dotted;
+    margin-top: 10px;
+}
+p{    font-size: 40px; color: rgb(0, 0, 0); text-align: center; 
+}
+.sec1 {    height: 700px; width: 100%; display: flex; background-color: blanchedalmond;
+}
+.pai {    background-color: red; height: 600px; width: 2000px; display: flex;
+    justify-content: space-evenly; align-items: center;
+    border-radius: 10%; border-style: dashed; margin: auto;
+}
+.filho{    width: 900px; height: 480px; background-color: rgb(217, 255, 0); 
+    align-items: center; align-items: center; align-content: center; padding-left: 90px;
+    border: 20px; border-radius: 70px;
+}
+.imgmarco {    height: 450px; width: 800px; border-radius: 250px; border-color: aquamarine; border-bottom-right-radius: 10px;
+    border-top-left-radius: 50px; border-style: groove; border: 2%;
+}
+.sec1_1 {    width: 100%; background-color: blanchedalmond;
+}
+
+.sec2 {    height: 700px; width: 100%; align-content: center; justify-items: center;
+}
+
+.filho2{    width: 900px; height: 480px; background-color: rgb(217, 255, 0); 
+    align-items: center; align-items: center; align-content: center; padding-left: 90px;
+    border: 20px; border-radius: 70px;
+}
+.imgpraia {    height: 450px; width: 800px; border-radius: 250px; border-color: aquamarine; border-bottom-right-radius: 10px;
+    border-top-left-radius: 50px; border-style: groove; border: 2%;
+}
+.imgmuseu {    height: 450px; width: 800px; border-radius: 250px; border-color: aquamarine; border-bottom-right-radius: 10px;
+    border-top-left-radius: 50px; border-style: groove; border: 2%;
+}
+.content {
+    align-items: center; width: 100%; display: flex;
+    justify-content: center; margin-bottom: 100px;
+}
+.item {
+    align-items: center;
+    justify-content: center; margin-top: 100px;
+}
+.img {
+    height: 150%; width: 150%; border-top-left-radius: 10%; border-top-right-radius: 50px;
+    border-bottom-left-radius: 100px; border-bottom-right-radius: 25%;
+    border-style: double;
+}
